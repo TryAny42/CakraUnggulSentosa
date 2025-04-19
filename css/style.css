@@ -1222,11 +1222,11 @@ footer {
     }
 
     .service_icon {
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 65px;
         margin: 0 auto 25px;
     }
-
+    
     .service_icon i {
         font-size: 32px;
     }
@@ -1248,10 +1248,6 @@ footer {
     input, textarea {
         padding: 10px;
         font-size: 14px;
-    }
-
-    .footer-column h4 {
-        font-size: 18px;
     }
 
     .footer-column {
