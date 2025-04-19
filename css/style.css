@@ -1224,9 +1224,8 @@ footer {
     .service_icon {
         width: 70px;
         height: 65px;
-        margin: 0 auto 25px;
     }
-    
+
     .service_icon i {
         font-size: 32px;
     }
