@@ -524,10 +524,6 @@ div#main-nav {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
-.card__wrap--inner {
-    padding: 12px;
-}
-
 .card__item {
     padding: 12px 18px 9px 18px;
 }
@@ -547,9 +543,11 @@ div#main-nav {
 }
 
 .card__wrap--inner {
+    padding: 12px;
     display: flex;
     flex-direction: row;
     width: 33.33%;
+    transition: all 0.3s ease;
 }
 
 .flexible {
@@ -1155,15 +1153,16 @@ footer {
         display: block;
         margin: 0px;
     }
-    
-    .navStyle ul li:last-child {
-        margin: 0px;
-    }
 
     .contact-icon {
         width: 50px;
         height: 50px;
         font-size: 20px;
+    }
+
+    .footer-links a {
+        font-size: 14px;  
+        line-height: 1.6;
     }
 
     .whatsapp-float img {
@@ -1235,23 +1234,23 @@ footer {
         height: 70px;
         margin: 0 auto 20px;
         display: flex;
-        align-items: center;      /* Center vertically */
-        justify-content: center;  /* Center horizontally */
+        align-items: center;      
+        justify-content: center;  
     }
 
     .service_icon span {
         width: 70px;
         height: 70px;
         padding: 0;
-        display: flex;           /* Add flex display */
-        align-items: center;     /* Center vertically */
-        justify-content: center; /* Center horizontally */
+        display: flex;           
+        align-items: center;     
+        justify-content: center;
     }
 
     .service_icon i {
         font-size: 32px;
-        position: static;        /* Remove relative positioning */
-        top: auto;              /* Remove top value */
+        position: static;   
+        top: auto;        
         margin: 0;
         display: block;
         text-align: center;
@@ -1283,7 +1282,7 @@ footer {
 
     .footer-column p,
     .footer-links a {
-        font-size: 14px;  /* Make both same size */
+        font-size: 14px;  
         line-height: 1.6;
     }
 }
